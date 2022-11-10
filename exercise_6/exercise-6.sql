@@ -8,6 +8,4 @@ LEFT JOIN rental
 ON inventory.inventory_id = rental.inventory_id
 LEFT JOIN customer
 ON rental.customer_id = customer.customer_id
-WHERE first_name = 'Roberta';
-
-
+WHERE first_name = 'Roberta'
